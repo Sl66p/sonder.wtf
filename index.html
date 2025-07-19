@@ -138,7 +138,7 @@ function copyToClipboard(text) {
 <script>
 async function fetchLanyard() {
   try {
-    const res = await fetch('https://api.lanyard.rest/v1/users/577300949044035584');
+    const res = await fetch('https://api.lanyard.rest/v1/users/457272081688559657');
     const data = await res.json();
     if (!data.success) return;
     const { discord_status, activities } = data.data;
